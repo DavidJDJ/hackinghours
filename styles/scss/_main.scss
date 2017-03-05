@@ -1,0 +1,67 @@
+body {
+  color: $text-color;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.black {
+  color: #000000;
+}
+
+.header {
+  padding-top: 200px;
+  background-image: url('/assets/Panama_City_9154.png');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 200px;
+}
+
+.division {
+  background-color: $division-bkg-color;
+  color: $division-color;
+  text-align: center;
+  vertical-align: middle;
+  p {
+    vertical-align: middle;
+    margin: 5px 0px;
+  }
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.content-even {
+  background-color: rgb(223, 223, 223);
+}
+
+.list-item {
+  border-left: 2px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline;
+  p {
+    display: inline-block;
+    margin: 5px;
+    text-align: left;
+    min-width: 80px;
+  }
+}
+
+.faq-title {
+  font-weight: 400;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.footer {
+  background-color: $division-bkg-color;
+  color: $division-color;
+  padding: 4px;
+}
